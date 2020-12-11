@@ -1,0 +1,138 @@
+/* CSS Resets */
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Epilogue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar  */
+#navbar{
+    /* width: 98.9vw; */
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e3a6a;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+#navbar .navbar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .navbar .navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navbar .navbar .home a{
+    font-size: 1.7rem;
+    /* color: black; */
+}
+
+
+#navbar .navbar .home a span{
+    color: #3bcad1;
+}
+
+#navbar .navbar .navlist li a{
+    /* color: black; */
+    padding: 10px 15px;
+    margin: 0px 10px;
+    font-size: 1.2rem;
+}
+
+#navbar .navbar .navlist li a:hover {
+    color: #3bcad1;
+}
+
+#navbar .navbar .login a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .navbar .login a img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px;
+}
+
+#navbar .navbar .login a p{
+    color: #3bcad1;
+    font-size: 1.2rem;
+}
+/* End Navbar  */
+
+/* Footer Section */
+#foot{
+    color: #0e3a6a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3bcad1;
+    padding: 15px 0px;
+}
+
+#foot .head{
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+#foot .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+#foot .logo .item{
+    padding: 10px 15px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#foot .logo .item:hover{
+    transform: scale(1.2);
+    background-color: #5ca5f3;
+    border-radius: 10px;
+}
+
+#foot .logo .item img{
+    display: block;
+    margin: auto;
+}
+
+#foot .logo .item a{
+    color: #0e3a6a;
+}
+
+/* End Footer Section */

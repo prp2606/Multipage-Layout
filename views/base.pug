@@ -1,0 +1,45 @@
+html
+    head
+        block title
+        block stylesheets
+        block scripts
+
+        style
+            include ../staticFiles/CSS/base.css
+
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap")
+        //- font-family: 'Epilogue', sans-serif;
+    body
+        nav#navbar
+            div.navbar 
+                p.home #[a(href='/') NATURE #[span VISITS]]
+                ul.navlist
+                    li #[a(href='/about') About]
+                    li #[a(href='/services') Services]
+                    li #[a(href='/projects') Project]
+                    li #[a(href='/clients') Clients]
+                    li #[a(href='/') Good To Know]
+                    li #[a(href='/#contact') Contact]
+                div.login
+                    a(href='/')
+                        img(src="/Images/login.png" alt="Login")
+                        p Log In
+        
+        block bodycontent
+
+        footer#foot
+            p.head Copyright © 2020 NutureVisit.com | All Rights Reserved
+            div.logo
+                div.item
+                    a(href='/') 
+                        img(src="/Images/instalogo.png", alt="logo")
+                        p Instagram
+                div.item
+                    a(href='/') 
+                        img(src="/Images/twitterlogo.png", alt="logo")
+                        p Twitter
+                div.item
+                    a(href='/') 
+                        img(src="/Images/skypelogo.png", alt="logo")
+                        p Skype

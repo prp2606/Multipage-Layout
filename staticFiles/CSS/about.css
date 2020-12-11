@@ -1,0 +1,95 @@
+/* CSS Resets */
+
+*{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Epilogue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    /* color: white; */
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    line-height: 1.3rem;
+    /* font-weight: 900; */
+    /* font-size: 1.1rem; */
+}
+
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0e3a6a;
+}
+
+#about h2{
+    font-size: 3.5rem;
+    padding-top: 70px;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+}
+
+#about span{
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-top: 15px;
+    /* line-height: 1.2rem; */
+}
+
+#about span hr{
+    border-top: 6px solid #0e3a6a;
+}
+
+#about .upper{
+    width: 45%;
+    margin: auto;
+    margin: 60px 0px;
+}
+
+#about .lower{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3.5rem;
+    margin-bottom: 80px;
+}
+
+#about .lower .abts .lupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0e3a6a;
+}
+
+#about .lower .abts .lupper img{
+    height: 124px;
+    width: 165px;
+    margin-right: 10px;
+}
+
+#about .lower .abts .lupper h1{
+    padding: 30px 0px;
+    color: white;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+#about .lower .llower{
+    padding: 40px 0px;
+    text-align: left;
+}
+
+/* End About Section */

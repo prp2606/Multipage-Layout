@@ -1,0 +1,40 @@
+extends base.pug
+
+block title
+    title Services
+
+block stylesheets
+    style
+        include ../staticFiles/CSS/service.css
+
+block scripts
+    script
+        include ../staticFiles/mainscript.js
+    
+block bodycontent
+    section#services
+        h2 SERVICES
+        span #[hr]
+        p.upper I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+        div.lower
+            div.items
+                img(src="/Images/services1.jpg", alt="Services 1")
+                h1 SOFTWARE 
+                h1 DEVELOPMENT
+                p.hr 1 hr
+                p.dollar $220
+                button Book Now
+            div.items
+                img(src="/Images/services2.jpg", alt="Services 2")
+                h1 COMPETITIVE 
+                h1 PROGRAMMING
+                p.hr 1 hr
+                p.dollar $220
+                button Book Now
+            div.items
+                img(src="/Images/services3.jpg", alt="Services 3")
+                h1 DATA STRUCTURES 
+                h1 & ALGORITHM 
+                p.hr 1 hr
+                p.dollar $220
+                button Book Now

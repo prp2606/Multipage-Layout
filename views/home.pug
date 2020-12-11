@@ -1,0 +1,63 @@
+extends base.pug
+
+block title
+    title Home
+
+block stylesheets
+    style  
+        include ../staticFiles/CSS/home.css
+
+block scripts
+    script
+        include ../staticFiles/mainscript.js
+
+block bodycontent
+    section#home
+
+    section#spc-cards
+        div.upper
+            h2 NATURAL HABITATE
+            p EMBRACING THE NATURAL
+        div.lower
+            div.cardcontainer
+                div.cards
+                    h1 SERVICES
+                    p I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you
+                    a(href='/services') #[button Read More]
+                div.cards
+                    h1 PROJECTS
+                    p I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you
+                    a(href='/projects') #[button Read More]
+                div.cards
+                    h1 CLIENTS
+                    p I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you
+                    a(href='/clients') #[button Read More]
+
+    section#about
+        h2 ABOUT US
+        div.para
+            p I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+            p.two This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. 
+        a(href='/about') #[button Read More]
+
+    section#contact
+        h1 CONTACT US
+        div.contact
+            img(src="/Images/contactimg.jpg", alt="Contact Image")
+            div.form
+                div.para
+                    p 500 Terry Francois Street, San Francisco, CA 94158
+                    p naturevisits@mysite.com
+                    p Tel: 123-456-7890
+                form(action='/', method='post')
+                    label(for='firstname') First Name#[span *]
+                    input(type="text", placeholder='First Name', id='firstname', name='firstname')
+                    label(for='lastname') Last Name#[span *]
+                    input(type="text", placeholder='Last Name', id='lastname', name='lastname')
+                    label(for='email') E Mail#[span *]
+                    input(type="text", placeholder='E Mail', id='email', name='mail')
+                    label(for='subject') Subject
+                    input(type="text", placeholder='Subject', id='subject', name='subject')
+                    textarea(name="Message", cols="30", rows="10", placeholder='Type your message here...')
+                    button Submit
+                

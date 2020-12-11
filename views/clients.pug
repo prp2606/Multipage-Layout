@@ -1,0 +1,29 @@
+extends base.pug
+
+block title
+    title Clients
+
+block stylesheets
+    style
+        include ../staticFiles/CSS/clients.css
+
+block scripts
+    script
+        include ../staticFiles/mainscript.js
+    
+block bodycontent
+    section#clients
+        h2 CLIENTS
+        span #[hr]
+        p.upper I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.
+        div.lower
+            div.lupper
+                img(src="/Images/client1.png", alt="Client 1")
+                img(src="/Images/client2.png", alt="Client 2")
+                img(src="/Images/client3.png", alt="Client 3")
+            div.llower
+                img(src="/Images/client4.png", alt="Client 4")
+                img(src="/Images/client5.png", alt="Client 5")
+        div.end
+            p.italic “I'm a testimonial. Click me to edit and add text that says something nice about you and your services. Click me to edit and add text that says something nice about you and your services.”
+            p.by - Pratik Patil, Web Developer

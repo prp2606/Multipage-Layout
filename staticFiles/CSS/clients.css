@@ -1,0 +1,113 @@
+/* CSS Resets */
+
+*{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Epilogue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    /* color: white; */
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    line-height: 1.3rem;
+    /* font-weight: 900; */
+    /* font-size: 1.1rem; */
+}
+
+/* Clients section */
+
+#clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0e3a6a;
+}
+
+#clients h2{
+    font-size: 3.5rem;
+    padding-top: 70px;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+}
+
+#clients span{
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-top: 15px;
+    /* line-height: 1.2rem; */
+}
+
+#clients span hr{
+    border-top: 6px solid #0e3a6a;
+}
+
+#clients .upper{
+    width: 45%;
+    margin: auto;
+    margin: 60px 0px;
+}
+
+#clients .lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+#clients .lower img{
+    width: 150px;
+    height: 150px;
+}
+
+#clients .lower .lupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#clients .lower .llower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    /* margin: 20px 0px; */
+}
+
+#clients .end{
+    width: 80%;
+    background-color: #0e3a6a;
+    color: white;
+    font-style: italic;
+    padding: 50px 0px;
+    margin-bottom: 80px;
+    /* border-radius: 10px; */
+}
+
+#clients .end .italic{
+    padding: 0px 100px;
+}
+
+#clients .end .by{
+    margin-top: 10px;
+}
+
+
+/* End Clients section */
