@@ -1,6 +1,4 @@
-// Following the guide from app.js from Website using pug + nodejs project
-
-// IMPORTUNG
+// IMPORTiNG
 const express = require("express");
 const webapp = express();
 
@@ -20,7 +18,6 @@ webapp.set("views", path.join(__dirname, "views"));
 // END POINTS
 webapp.get("/", (req, res) => {
   res.status(200).render("home.pug");
-  // First created base.pug for template inheritance and then went to home.pug foe skeleton of home page
 });
 
 // Contact form content storing
@@ -28,7 +25,6 @@ const fs = require("fs");
 let no = 0;
 
 webapp.post("/", (req, res) => {
-  // console.log(req.body);
   let obj = req.body;
   no++;
   append(no, obj);
@@ -55,7 +51,6 @@ function append(no, obj) {
 
 webapp.get("/about", (req, res) => {
   res.status(200).render("about.pug");
-  // First created base.pug for template inheritance and then went to home.pug foe skeleton of home page
 });
 
 webapp.get("/services", (req, res) => {
