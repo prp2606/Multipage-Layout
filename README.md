@@ -10,5 +10,5 @@ Also, file-system and body-parser modules are used in order to take the data sub
 
 To make your own multipage website using this layout, just pull the repo on your local machine and edit the .pug files in the way you like.
 
-### NOTE 1 : Only desktop version of this layout is designed!
-### NOTE 2 : Upgraded version of this project coming soon!
+#### NOTE 1 : Only desktop version of this layout is designed!
+#### NOTE 2 : Upgraded version of this project coming soon!
