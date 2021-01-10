@@ -8,7 +8,6 @@ Concept of template inheritance is implemented for avoiding the workload of writ
 Contact form is enabled to be fully functional.
 Also, file-system and body-parser modules are used in order to take the data submitted from front-end and then it is dumped in our machine's local storage(ex: .txt files).
 
-To make your own multipage website using this layout, just pull the repo on your local machine and edit the .pug files in the way you like.
 
 #### NOTE 1 : Only desktop version of this layout is designed!
 #### NOTE 2 : Upgraded version of this project coming soon!
